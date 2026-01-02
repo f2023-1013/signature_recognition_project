@@ -1,10 +1,30 @@
-# Signature-recognition
-Signature recognition is a behavioural biometric. It can be operated in two different ways:  Static: In this mode, users write their signature on paper, digitize it through an optical scanner or a camera, and the biometric system recognizes the signature analyzing its shape. This group is also known as “off-line”.  Dynamic: In this mode, users write their signature in a digitizing tablet, which acquires the signature in real time. Another possibility is the acquisition by means of stylus-operated PDAs. Some systems also operate on smart-phones or tablets with a capacitive screen, where users can sign using a finger or an appropriate pen. Dynamic recognition is also known as “on-line”. Dynamic information usually consists of the following information:
+# Signature Recognition System
 
-Before downloading the project download the necessary modules:
-pip install keras
-pip install numpy
-pip install pandas
-pip install sklearn
-pip install os
-pip install matplotlib
+This project is an AI-based Signature Recognition System developed for **Cloud Computing Lab 13 (CLO-3)**.
+
+## 📌 Project Overview
+The system allows users to upload handwritten signature images and verifies whether the signature is **genuine or forged** using image preprocessing and a machine learning model.
+
+## 🧱 System Architecture
+- **Presentation Layer:** HTML, CSS frontend hosted on Firebase
+- **Logic Layer:** Flask REST API with OpenCV and TensorFlow
+- **Data Layer:** Temporary local file storage (no database)
+- **Security Layer:** HTTPS, firewall rules
+
+## 🛠 Tech Stack
+- Frontend: HTML, CSS, JavaScript (Firebase Hosting)
+- Backend: Python Flask
+- ML: OpenCV, TensorFlow
+- Cloud: DigitalOcean Droplet
+- CI/CD: GitHub Actions
+- Containerization: Docker
+
+## 🚀 Deployment
+- Backend deployed using Docker on DigitalOcean
+- Frontend hosted on Firebase
+- CI/CD implemented using GitHub Actions
+
+## 📂 Notes
+- No database is used in this project
+- Temporary local storage is used for uploaded images
+- This project follows a tiered cloud architecture as required by Lab 13
