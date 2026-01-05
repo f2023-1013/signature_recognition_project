@@ -1,4 +1,4 @@
-# Signature Recognition System
+# Signature Recognitionss System
 
 This project is an AI-based Signature Recognition System developed for **Cloud Computing Lab 13 (CLO-3)**.
 
